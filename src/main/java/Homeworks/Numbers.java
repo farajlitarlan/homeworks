@@ -5,6 +5,7 @@ package Homeworks;
  import java.util.Random ;
  import java.util.Arrays ;
  import java.util.Scanner ;
+
 import java.lang.StringBuffer ;
 
 public class Numbers {
@@ -19,6 +20,7 @@ public class Numbers {
 
 
         Random rnd = new Random();
+
 
         int number = (int) (rnd.nextInt(100) + 1);
         int[] yourNumbers = new int[100];
@@ -43,6 +45,7 @@ public class Numbers {
 
 
         }
+
 
 
         System.out.println(Arrays.toString(yourNumbers));
